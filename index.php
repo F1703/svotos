@@ -30,7 +30,7 @@
 
         <div class="form-group">
           <label for="votos_validos">Votos validos</label>
-          <input type="number" class="form-control" id="" placeholder="0">
+          <input type="text" class="form-control" id="" placeholder="0">
         </div>
 
         <div class="form-group">
