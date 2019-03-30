@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sistema Votos</title>
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,300" type="text/css">
+    <link rel="stylesheet" href="/src/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/css01.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="container">
+      <form class="form" action="index.html" method="post">
+        <h1>Votos</h1>
+
+          <fieldset>
+            <legend><span class="section">1</span>Complete los siguientes campos</legend>
+
+            <label for="establecimiento">Seleccione Establecimiento:</label>
+            <select class="" name="establecimiento">
+              <optgroup label="Establecimiento">
+                <option value="1">Escuela nro 123</option>
+                <option value="2">Escuela nro 124</option>
+                <option value="3">Escuela nro 125</option>
+                <option value="4">Escuela nro 126</option>
+              </optgroup>
+            </select>
+            <label for="mesa">Seleccione Mesa: </label>
+            <select class="" name="mesa">
+              <optgroup label="Mesa">
+                <option value="1">Mesa nro 12</option>
+              </optgroup>
+            </select>
+            <label for="cantidad_votantes">Cantidad de votantes</label>
+            <input type="text"  id="" placeholder="0">
+
+            <label for="votos_validos">Votos validos</label>
+            <input type="text"  id="" placeholder="0">
+
+            <label for="votos_nulos">Votos nulos</label>
+            <input type="text"  id="" placeholder="0">
+
+            <label for="votos_blancos">Votos blancos</label>
+            <input type="text"  id="" placeholder="0">
+          </fieldset>
+
+          <fieldset>
+            <legend><span class="section">2</span>Votos por partido</legend>
+            <div class="table-responsive">
+              <table class="table table-hover table-condensed">
+                <thead>
+                  <tr>
+                    <th>Lista</th>
+                    <th>Partido</th>
+                    <th>Votos</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>123</td>
+                    <td>Frente para la victoria</td>
+                    <td>
+                      <input type="text" name="" value="0">
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>123</td>
+                    <td>Frente para la victoria</td>
+                    <td>
+                      <input type="text" name="" value="0">
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>123</td>
+                    <td>Frente para la victoria</td>
+                    <td>
+                      <input type="text" name="" value="0">
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>123</td>
+                    <td>Frente para la victoria</td>
+                    <td>
+                      <input type="text" name="" value="0">
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+          </fieldset>
+
+
+        <!-- <div class="form-group"> -->
+          <button type="button"  >Enviar</button>
+        <!-- </div> -->
+
+
+
+      </form>
+    </div>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
+    <script src="src/bootstrap.min.js"></script>
+  </body>
+</html>
