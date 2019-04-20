@@ -2,13 +2,16 @@
 body{
   font-family: 'Nunito',sans-serif;
   /* color: #384047; */
-  color: #383838;
+  /* color: #383838; */
+  /* color: #d50e0e; */
 }
 form{
   /* max-width: 300px; */
   margin: 10px auto;
   padding: 10px 20px 70px 30px;
-  background: #f4f7f8;
+  /* background: #f4f7f8; */
+  /* background: #bceaf6; */
+  background: #8ddaf0;
   border-radius: 8px;
 }
 
@@ -17,29 +20,36 @@ h1{
 }
 
 
-
 input[type="text"],
 input[type="number"],
 select{
-  background: rgba(255,255,255,0.1);
+  /* background: rgba(255,255,255,0.1); */
+  /* background: rgba(254,55,25,0.1); */
   border: none;
-  font-size: 16px;
+  font-size: 15px;
   /* padding: 10px; */
   padding: 6px;
   height: auto;
   margin: 0;
   outline: 0;
   width: 100%;
-  background-color: #e8eeef;
-  /* color: #8a97a0; */
-  color:#000000 ;
+  /* background-color: #e8eeef; */
+  background-color: #ffffff;
+   /*original */
+  /* color: #8a97a0;  */
+  color:#200303 ;
   /* box-shadow: 0 1px 0 rgb(0,0,0,0.3) inset; */
   margin-bottom: 15px;
 }
 
+label{
+  font-size: 17px;
+}
+
+
 input:focus {
   box-shadow: 0 0 5px rgba(81,203,238,1);
-  border: 1px solid rgba(81,203,238,1);
+  border: 1px solid rgba(66, 226, 27, 1);
 }
 
 /* select  */
@@ -53,7 +63,9 @@ select{
 button{
   padding: 15px 39px 15px 39px;
   color: #FFF;
-  background-color: #4bc970;
+  /* background-color: #4bc970; */
+  background-color: #35be5e;
+
   font-size: 18px;
   text-align: center;
   font-style: norml;
@@ -74,7 +86,8 @@ legend{
 
 
 .section{
-  background-color: #5fcf80;
+  /* background-color: #5fcf80; */
+  background-color: #35be5e;
   color: #fff;
   height: 30px;
   width: 30px;
