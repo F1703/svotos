@@ -118,7 +118,7 @@ tbody input[type="number"]{
 
   }
   table td:first-child{
-    background-color: rgb(45, 249, 83);
+    background-color: rgba(32, 218, 66, 0.88);
   }
 
   table td::before{
